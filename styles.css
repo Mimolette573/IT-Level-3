@@ -4,9 +4,10 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+  font-family: MS Gothic;
+  color: rgb(39, 0, 33);
+  background-color: rgb(255, 220, 249);
+  text-align: center;
 }
 
 nav {
@@ -17,7 +18,7 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
-  background-color: #eee;
+  background-color: rgb(255, 164, 240);
 }
 
 nav a {
@@ -33,7 +34,7 @@ nav a {
 
 nav a[aria-current='page'] {
   color: #000;
-  background-color: #d4d4d4;
+  background-color: rgb(187, 84, 170);
 }
 
 main {
